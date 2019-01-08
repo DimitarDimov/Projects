@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE smartphones SYSTEM "file:/C:/Users/isianty/Desktop/smartphones.dtd">
+<smartphones>
+    <smartphone year="2016">
+        <make>Хуауей</make>
+        <model serialNumber="X1X2">P9 Лайт</model>
+        <type t="dualSim"/>
+        <simType T="nano"/>
+        <screen isTouch="Y"><size><inches>5.2</inches></size><technology>IPS LCD</technology><resolution>1080 x 1920</resolution></screen>
+        <specifications>
+            <processor>
+                <producer>AРМ</producer>
+                <modelOfProcessor>Кортекс-A53</modelOfProcessor>
+                <typeOfProcessor>Oкта-кор</typeOfProcessor>
+                <cores>8</cores>
+                <frequency>4x2.0 GHz,4x11.7 Ghz</frequency>
+            </processor>
+            <RAM>2GB</RAM>
+            <memory>
+                <internal>16GB</internal>
+                <externalSlot e="Y"/>
+            </memory>
+            <ports>микро усб, 3.5мм жак</ports>
+            <battery>
+                <mAh>3000</mAh>
+                <timeTalk>19 часа</timeTalk>
+            </battery>
+            <camera flash="Y">
+                <mp>13</mp>
+            </camera>
+            <secondCam autoFocus="Y">
+                <mpixels>8</mpixels>
+            </secondCam>
+            <color>бял, черен, златист</color>
+        </specifications>
+        <price value="479" currency="BGN"/>
+        <description>Сензор за отпечатъци
+            Акселерометър
+            Сензор за близост
+            Дигитален компас
+            Светлинен сензор</description>
+    </smartphone>
+</smartphones>
