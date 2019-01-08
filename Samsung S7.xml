@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE smartphones SYSTEM "file:/C:/Users/isianty/Desktop/smartphones.dtd">
+<smartphones>
+    <smartphone year="2016">
+        <make>Самсунг</make>
+        <model serialNumber="X11X22">Ес7</model>
+        <type t="dualSim"/>
+        <simType T="nano"/>
+        <screen isTouch="Y"><size><inches>5.1</inches></size><technology>Super AMOLED</technology><resolution>1440 x 2560</resolution></screen>
+        <specifications>
+            <processor>
+                <producer>Ексинос,АРМ</producer>
+                <modelOfProcessor>Монгоос,Кортекс-А53</modelOfProcessor>
+                <typeOfProcessor>Окта-кор</typeOfProcessor>
+                <cores>8</cores>
+                <frequency>4x2.3 GHz,4x1.6 GHz</frequency>
+            </processor>
+            <RAM>4GB</RAM>
+            <memory>
+                <internal>16/32GB</internal>
+                <externalSlot e="Y"/>
+            </memory>
+            <ports>микро усб, 3.5мм жак</ports>
+            <battery>
+                <mAh>3000</mAh>
+                <timeTalk>22 часа</timeTalk>
+            </battery>
+            <camera flash="Y">
+                <mp>12</mp>
+            </camera>
+            <secondCam autoFocus="Y">
+                <mpixels>5</mpixels>
+            </secondCam>
+            <color>бял, сив, черен, златист, розов</color>
+        </specifications>
+        <price value="1049" currency="BGN"/>
+        <description>Бързо безжично зареждане (вградено)
+            Сертификат IP68 - Устойчивост на вода и прах</description>
+    </smartphone>
+</smartphones>

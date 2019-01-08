@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="xmlToHtml4.xslt" type="text/xsl"?>
+<smartphones>
+    <smartphone year="2016">
+        <make>Хуауей</make>
+        <model serialNumber="X1X2">P9 Лайт</model>
+        <type t="dualSim"/>
+        <simType T="nano"/>
+        <screen isTouch="Y"><size><inches>5.2 </inches></size><technology>IPS LCD</technology><resolution>1080 x 1920</resolution></screen>
+        <specifications>
+            <processor>
+                <producer>AРМ</producer>
+                <modelOfProcessor>Кортекс-A53</modelOfProcessor>
+                <typeOfProcessor>Oкта-кор</typeOfProcessor>
+                <cores>8</cores>
+                <frequency>4x2.0 GHz,4x11.7 Ghz</frequency>
+            </processor>
+            <RAM>2GB</RAM>
+            <memory>
+                <internal>16GB</internal>
+                <externalSlot e="Y"/>
+            </memory>
+            <ports>микро усб, 3.5мм жак</ports>
+            <battery>
+                <mAh>3000</mAh>
+                <timeTalk>19 часа</timeTalk>
+            </battery>
+            <camera flash="Y">
+                <mp>13</mp>
+            </camera>
+            <secondCam autoFocus="Y">
+                <mpixels>8</mpixels>
+            </secondCam>
+            <color>бял, черен, златист</color>
+        </specifications>
+        <price value="479" currency="BGN"/>
+        <description>Сензор за отпечатъци
+            Акселерометър
+            Сензор за близост
+            Дигитален компас
+            Светлинен сензор</description>
+    </smartphone>
+    <smartphone year="2014">
+        <make>Айфон</make>
+        <model serialNumber="X">6</model>
+        <type t="singleSim"/>
+        <simType T="nano"/>
+        <screen isTouch="Y"><size><inches>4.7 </inches></size><technology>IPS LCD</technology><resolution>750 x 1334</resolution></screen>
+        <specifications>
+            <processor>
+                <producer>АРМ</producer>
+                <modelOfProcessor>Тайфун</modelOfProcessor>
+                <typeOfProcessor>Дуал-кор</typeOfProcessor>
+                <cores>2</cores>
+                <frequency>1.4</frequency>
+            </processor>
+            <RAM>1GB</RAM>
+            <memory>
+                <internal>16/32/64/128GB</internal>
+                <externalSlot e="N"/>
+            </memory>
+            <ports>Лайтнинг конектор, 3.5мм жак</ports>
+            <battery>
+                <mAh>1810</mAh>
+                <timeTalk>14 часа</timeTalk>
+            </battery>
+            <camera flash="Y">
+                <mp>8</mp>
+            </camera>
+            <secondCam autoFocus="Y">
+                <mpixels>1.2</mpixels>
+            </secondCam>
+            <color>сив, черен, бял, златист, розеголд</color>
+        </specifications>
+        <price value="1200" currency="BGN"/>
+        <description>Fingerprint sensor
+            Епъл пей (Виза, Мастъркарт, Амекс)
+            Сири
+            Еърплей
+            Карплей
+            Еърдроп
+            Айтунс радио
+            Адаптер ЕС</description>
+    </smartphone>
+    <smartphone year="2016">
+        <make>Самсунг</make>
+        <model serialNumber="X11X22">Ес7</model>
+        <type t="dualSim"/>
+        <simType T="nano"/>
+        <screen isTouch="Y"><size><inches>5.1 </inches></size><technology>Super AMOLED</technology><resolution>1440 x 2560</resolution></screen>
+        <specifications>
+            <processor>
+                <producer>Ексинос,АРМ</producer>
+                <modelOfProcessor>Монгоос,Кортекс-А53</modelOfProcessor>
+                <typeOfProcessor>Окта-кор</typeOfProcessor>
+                <cores>8</cores>
+                <frequency>4x2.3 GHz,4x1.6 GHz</frequency>
+            </processor>
+            <RAM>4GB</RAM>
+            <memory>
+                <internal>16/32GB</internal>
+                <externalSlot e="Y"/>
+            </memory>
+            <ports>микро усб, 3.5мм жак</ports>
+            <battery>
+                <mAh>3000</mAh>
+                <timeTalk>22 часа</timeTalk>
+            </battery>
+            <camera flash="Y">
+                <mp>12</mp>
+            </camera>
+            <secondCam autoFocus="Y">
+                <mpixels>5</mpixels>
+            </secondCam>
+            <color>бял, сив, черен, златист, розов</color>
+        </specifications>
+        <price value="1049" currency="BGN"/>
+        <description>Бързо безжично зареждане (вградено)
+            Сертификат IP68 - Устойчивост на вода и прах</description>
+    </smartphone>
+    <smartphone year="2015">
+        <make>Леново</make>
+        <model serialNumber="Х11">Р90</model>
+        <type t="singleSim"/>
+        <simType T="micro"/>
+        <screen isTouch="Y"><size><inches>5.5 </inches></size><technology>IPS LCD</technology><resolution>1080 x 1920</resolution></screen>
+        <specifications>
+            <processor>
+                <producer>Интел</producer>
+                <modelOfProcessor>Атом Z3560</modelOfProcessor>
+                <typeOfProcessor>Куад-кор</typeOfProcessor>
+                <cores>4</cores>
+                <frequency>4х1.83 GHz</frequency>
+            </processor>
+            <RAM>2GB</RAM>
+            <memory>
+                <internal>32GB</internal>
+                <externalSlot e="N"/>
+            </memory>
+            <ports>микро усб, 3.5мм жак</ports>
+            <battery>
+                <mAh>4000</mAh>
+                <timeTalk>30 часа</timeTalk>
+            </battery>
+            <camera flash="Y">
+                <mp>13</mp>
+            </camera>
+            <secondCam autoFocus="N">
+                <mpixels>5</mpixels>
+            </secondCam>
+            <color>бял, черен, червен</color>
+        </specifications>
+        <price value="399" currency="BGN"/>
+        <description>Акселерометър
+            Сензор за близост
+            Компас</description>
+    </smartphone>
+    <smartphone year="2015">
+        <make>Сони</make>
+        <model serialNumber="Х111">Експерия М5</model>
+        <type t="singleSim"/>
+        <simType T="nano"/>
+        <screen isTouch="Y"><size><inches>5.0 </inches></size><technology>IPS LCD</technology><resolution>1080 x 1920</resolution></screen>
+        <specifications>
+            <processor>
+                <producer>АРМ</producer>
+                <modelOfProcessor>Кортекс-А53</modelOfProcessor>
+                <typeOfProcessor>Окта-кор</typeOfProcessor>
+                <cores>4</cores>
+                <frequency>4х2.0 GHz</frequency>
+            </processor>
+            <RAM>3GB</RAM>
+            <memory>
+                <internal>16GB</internal>
+                <externalSlot e="Y"/>
+            </memory>
+            <ports>микро усб, 3.5мм жак</ports>
+            <battery>
+                <mAh>2600</mAh>
+                <timeTalk>12 часа</timeTalk>
+            </battery>
+            <camera flash="Y">
+                <mp>21.5</mp>
+            </camera>
+            <secondCam autoFocus="Y">
+                <mpixels>13</mpixels>
+            </secondCam>
+            <color>бял, черен, златист</color>
+        </specifications>
+        <price value="539" currency="BGN"/>
+        <description>Акселометър, комрас</description>
+    </smartphone>
+</smartphones>

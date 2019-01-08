@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE smartphones SYSTEM "file:/C:/Users/isianty/Desktop/smartphones.dtd">
+<smartphones>
+    <smartphone year="2015">
+        <make>Леново</make>
+        <model serialNumber="Х11">Р90</model>
+        <type t="singleSim"/>
+        <simType T="micro"/>
+        <screen isTouch="Y"><size><inches>5.5</inches></size><technology>IPS LCD</technology><resolution>1080 x 1920</resolution></screen>
+        <specifications>
+            <processor>
+                <producer>Интел</producer>
+                <modelOfProcessor>Атом Z3560</modelOfProcessor>
+                <typeOfProcessor>Куад-кор</typeOfProcessor>
+                <cores>4</cores>
+                <frequency>4х1.83 GHz</frequency>
+            </processor>
+            <RAM>2GB</RAM>
+            <memory>
+                <internal>32</internal>
+                <externalSlot e="N"/>
+            </memory>
+            <ports>микро усб, 3.5мм жак</ports>
+            <battery>
+                <mAh>4000</mAh>
+                <timeTalk>30 часа</timeTalk>
+            </battery>
+            <camera flash="Y">
+                <mp>13</mp>
+            </camera>
+            <secondCam autoFocus="N">
+                <mpixels>5</mpixels>
+            </secondCam>
+            <color>бял, черен, червен</color>
+        </specifications>
+        <price value="399" currency="BGN"/>
+        <description>Акселерометър
+            Сензор за близост
+            Компас</description>
+    </smartphone>
+</smartphones>

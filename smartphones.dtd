@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT smartphones (smartphone+)>
+    
+    <!ELEMENT smartphone (make, model, type, simType, screen, specifications, price, description, images?)>
+    <!ATTLIST smartphone year NMTOKEN #REQUIRED >
+        <!ELEMENT make (#PCDATA) >
+        <!ELEMENT model (#PCDATA)>
+            <!ATTLIST model serialNumber ID #REQUIRED >   
+        <!ELEMENT type EMPTY>
+            <!ATTLIST type t (singleSim|dualSim) #REQUIRED>
+        <!ELEMENT simType EMPTY>
+            <!ATTLIST simType T (standart|micro|nano) #REQUIRED>
+        <!ELEMENT screen (size, technology, resolution)>
+            <!ATTLIST screen isTouch (Y|N) #REQUIRED >
+            <!ELEMENT size (inches)>
+                <!ELEMENT inches (#PCDATA)>
+            <!ELEMENT technology (#PCDATA)>
+            <!ELEMENT resolution (#PCDATA)>
+        <!ELEMENT specifications (processor, RAM, memory, ports, battery, camera, secondCam, color)>
+            <!ELEMENT processor (producer, modelOfProcessor, typeOfProcessor, cores, frequency)>
+                <!ELEMENT producer (#PCDATA)>
+                <!ELEMENT modelOfProcessor (#PCDATA)>
+                <!ELEMENT typeOfProcessor (#PCDATA)>
+                <!ELEMENT cores (#PCDATA)>
+                <!ELEMENT frequency (#PCDATA)>
+            <!ELEMENT RAM (#PCDATA)>
+            <!ELEMENT memory (internal, externalSlot)>
+                <!ELEMENT internal (#PCDATA)>
+                <!ELEMENT externalSlot EMPTY>
+                <!ATTLIST externalSlot e (Y|N) #REQUIRED>
+            <!ELEMENT ports (#PCDATA)>
+            <!ELEMENT battery (mAh, timeTalk)>
+                <!ELEMENT mAh (#PCDATA)>
+                <!ELEMENT timeTalk (#PCDATA)>
+            <!ELEMENT camera (mp)>
+                <!ATTLIST camera flash (Y|N) #REQUIRED >
+                <!ELEMENT mp (#PCDATA)>
+            <!ELEMENT secondCam (mpixels)>
+                <!ATTLIST secondCam autoFocus (Y|N) #REQUIRED >
+                <!ELEMENT mpixels (#PCDATA)>
+            <!ELEMENT color (#PCDATA)>
+        <!ELEMENT price EMPTY>
+        <!ATTLIST price value NMTOKEN #REQUIRED 
+                        currency NMTOKEN #FIXED "BGN">
+       <!ELEMENT description (#PCDATA)>
+       <!ELEMENT images (image+)>
+            <!ELEMENT image (#PCDATA)>

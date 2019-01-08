@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE smartphones SYSTEM "file:/C:/Users/isianty/Desktop/smartphones.dtd">
+<smartphones>
+    <smartphone year="2015">
+        <make>Сони</make>
+        <model serialNumber="Х111">Експерия М5</model>
+        <type t="singleSim"/>
+        <simType T="nano"/>
+        <screen isTouch="Y"><size><inches>5.0</inches></size><technology>IPS LCD</technology><resolution>1080 x 1920</resolution></screen>
+        <specifications>
+            <processor>
+                <producer>АРМ</producer>
+                <modelOfProcessor>Кортекс-А53</modelOfProcessor>
+                <typeOfProcessor>Окта-кор</typeOfProcessor>
+                <cores>4</cores>
+                <frequency>4х2.0 GHz</frequency>
+            </processor>
+            <RAM>3GB</RAM>
+            <memory>
+                <internal>16GB</internal>
+                <externalSlot e="Y"/>
+            </memory>
+            <ports>микро усб, 3.5мм жак</ports>
+            <battery>
+                <mAh>2600</mAh>
+                <timeTalk>12 часа</timeTalk>
+            </battery>
+            <camera flash="Y">
+                <mp>21.5</mp>
+            </camera>
+            <secondCam autoFocus="Y">
+                <mpixels>13</mpixels>
+            </secondCam>
+            <color>бял, черен, златист</color>
+        </specifications>
+        <price value="539" currency="BGN"/>
+        <description>Акселометър, комрас</description>
+    </smartphone>
+</smartphones>
