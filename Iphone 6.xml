@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE smartphones SYSTEM "file:/C:/Users/isianty/Desktop/smartphones.dtd">
+<smartphones>
+    <smartphone year="2014">
+        <make>Айфон</make>
+        <model serialNumber="X">6</model>
+        <type t="singleSim"/>
+        <simType T="nano"/>
+        <screen isTouch="Y"><size><inches>4.7</inches></size><technology>IPS LCD</technology><resolution>750 x 1334</resolution></screen>
+        <specifications>
+            <processor>
+                <producer>АРМ</producer>
+                <modelOfProcessor>Тайфун</modelOfProcessor>
+                <typeOfProcessor>Дуал-кор</typeOfProcessor>
+                <cores>2</cores>
+                <frequency>1.4</frequency>
+            </processor>
+            <RAM>1GB</RAM>
+            <memory>
+                <internal>16/32/64/128GB</internal>
+                <externalSlot e="N"/>
+            </memory>
+            <ports>>Лайтнинг конектор, 3.5мм жак</ports>
+            <battery>
+                <mAh>1810</mAh>
+                <timeTalk>14 часа</timeTalk>
+            </battery>
+            <camera flash="Y">
+                <mp>8</mp>
+            </camera>
+            <secondCam autoFocus="Y">
+                <mpixels>1.2</mpixels>
+            </secondCam>
+            <color>сив, черен, бял, златист, розеголд</color>
+        </specifications>
+        <price value="1200" currency="BGN"/>
+        <description>Fingerprint sensor
+            Епъл пей (Виза, Мастъркарт, Амекс)
+            Сири
+            Еърплей
+            Карплей
+            Еърдроп
+            Айтунс радио
+            Адаптер ЕС</description>
+    </smartphone>
+</smartphones>
